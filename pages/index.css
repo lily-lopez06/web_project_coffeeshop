@@ -1,12 +1,13 @@
-@import url(../vendor/normalize.css);
-@import url(../blocks/page.css);
-@import url(../blocks/footer.css);
-@import url(../blocks/form.css);
-@import url(../blocks/header.css);
-@import url(../blocks/nav.css);
-@import url(../blocks/recipes.css);
-@import url(../blocks/reservation.css);
+@import url("../vendor/normalize.css");
 
+@import url("../blocks/page.css");
+@import url("../blocks/nav.css");
+@import url("../blocks/header.css");
+@import url("../blocks/recipes.css");
+@import url("../blocks/reservation.css");
+@import url("../blocks/form.css");
+@import url("../blocks/footer.css");
+/*
 * {
   margin: 0;
   padding: 0;
@@ -22,19 +23,6 @@
   font-family: "Inter Noto Serif", sans-serif, Arial, Helvetica, serif,
     "Times New Roman";
   background-color: #ffffff;
-}
-
-.header {
-  min-height: 720px;
-  max-height: 800px;
-  height: 100vh;
-  margin: auto;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  background-image: url(../images/background_header.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .nav {
@@ -68,13 +56,17 @@
   line-height: 20px;
 }
 
-.span-accent {
-  font-family: "Noto Serif";
-  font-style: italic;
-  font-weight: normal;
-  font-size: 58px;
-  line-height: 72px;
-  color: #2f80ed;
+.header {
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/background_header.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header__title {
@@ -88,6 +80,16 @@
   padding-left: 80px;
   margin: 183px 0 28px;
 }
+
+.header__span-accent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
 .header__description {
   font-family: "Noto Serif";
   font-size: 20px;
@@ -124,13 +126,10 @@
   margin-right: 80px;
 }
 
-.content {
-  background-color: #0a2750;
-  position: relative;
-}
-
 .recipes {
   background-image: url(../images/background_recipes.svg);
+  background-color: #0a2750;
+  position: relative;
 }
 
 .recipes__title {
