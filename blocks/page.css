@@ -1,0 +1,10 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: auto;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Inter Noto Serif", sans-serif, Arial, Helvetica, serif,
+    "Times New Roman";
+  background-color: #ffffff;
+}
